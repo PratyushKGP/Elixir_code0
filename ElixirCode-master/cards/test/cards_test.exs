@@ -10,5 +10,8 @@ defmodule CardsTest do
   test "shuffling a deck randomizes it" do
     deck = Cards.create_deck
     refute deck == Cards.shuffle(deck)
+    deck_=deck
+    deck_=deck_++
+    refuse=deck_
   end
 end

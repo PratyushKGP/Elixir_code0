@@ -6,7 +6,8 @@ defmodule Discuss.Topic do
     belongs_to :user, Discuss.User
     has_many :comments, Discuss.Comment
   end
-
+  defmodule Discuss.init()
+  server: MyOfficial
   def changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [:title])
